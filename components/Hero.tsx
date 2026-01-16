@@ -104,7 +104,7 @@ const Hero: React.FC = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent z-10"></div>
                 
                 <img 
-                  src="/profile.jpg" 
+                  src="/profile.png" 
                   alt="Zayd Elbassri" 
                   className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700 ease-out"
                 />
