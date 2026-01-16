@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { SectionId } from '../types';
 import { SOCIAL_LINKS } from '../constants';
 import { ArrowRight, Download } from 'lucide-react';
+import profileImg from './profile.png';
 
 const Hero: React.FC = () => {
   
@@ -104,7 +105,7 @@ const Hero: React.FC = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent z-10"></div>
                 
                 <img 
-                  src="/profile.png" 
+                  src={profileImg} 
                   alt="Zayd Elbassri" 
                   className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700 ease-out"
                 />
