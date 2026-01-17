@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { SectionId } from '../types';
 import { SOCIAL_LINKS } from '../constants';
 import { ArrowRight, Download } from 'lucide-react';
-import profileImg from './profile.png';
+import profileImg from '../profile.png';
 
 const Hero: React.FC = () => {
   
